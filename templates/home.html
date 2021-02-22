@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cupcakes</title>
+</head>
+<body>
+    <h1>Cupcakes List</h1>
+    <div id="cupcakes-list">
+
+    </div>
+    <h2>Add a Cupcake</h2>
+    <form>
+        Flavor <input id="flavor" type="text" required>
+        Size <input id="size" type="text" required>
+        Rating <input id="rating" type="number" required>
+        Image URL <input id="image-url" type="text">
+        <button id="add-cupcake-submit">Submit</button>
+    </form>
+
+    <script src="https://unpkg.com/jquery"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="/static/cupcakes.js"></script>
+</body>
+</html>
